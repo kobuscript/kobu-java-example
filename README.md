@@ -10,6 +10,6 @@ This example contains two scripts that parse and edit Java files:
 
 ## Usage
 
-Install the [Kobu Intellij plugin](https://github.com/kobuscript/kobu-intellij) and copy this folder to your Java project. You can create a "kobu" root folder, your use the standard "src/main/kobu" folder, if your project uses Maven or Gradle.
+Install the [Kobu Intellij plugin](https://github.com/kobuscript/kobu-intellij) and copy this folder to your Java project. You can create a "kobu" root folder, or use the standard "src/main/kobu" folder, if your project uses Maven or Gradle.
 
 When editing a Java file, the scripts will be available in the editor's context menu.
