@@ -1,0 +1,23 @@
+<kobu-project>
+	<name>petclinic-utils</name>
+	<version>1.0</version>
+
+	<sourcePath>src</sourcePath>
+
+	<commands>
+		<command>
+			<id>toString</id>
+			<name>Generate toString()</name>
+			<script>ToString.kobu</script>
+			<description>Generate a toString() method for a Java class</description>
+			<pattern>*.java</pattern>
+		</command>
+		<command>
+			<id>Builder</id>
+			<name>Generate builder class</name>
+			<script>Builder.kobu</script>
+			<description>Generate a Builder inner class for a Java class</description>
+			<pattern>*.java</pattern>
+		</command>
+	</commands>
+</kobu-project>
